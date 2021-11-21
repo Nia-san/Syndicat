@@ -5,6 +5,10 @@ body{
     background: #2f3437ff;
 }
 
+.favicon {
+    color: #a87f63ff;
+}
+
 .sidebar {
     background: #1c1e22ff;
     padding-top: 30px;
