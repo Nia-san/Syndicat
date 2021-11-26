@@ -66,9 +66,22 @@ main h1, h2, h3 {
     transition: var(--transition-speed);
 }
 
+.nav-link-current {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    color: var(--text-active);
+    transition: var(--transition-speed);
+}
+
 .nav-link:hover {
     background: var(--bg-hover);
     color: var(--text-hover);
+}
+
+.nav-link-current:hover {
+    background: var(--bg-hover);
 }
 
 .link-text {
@@ -80,7 +93,7 @@ main h1, h2, h3 {
     margin: 0 1.5rem;
 }
 
-.nav-link svg {
+.nav-link-current svg {
     width: 20px;
     margin: 0 1.5rem;
 }
@@ -88,6 +101,10 @@ main h1, h2, h3 {
 .fa-primary {
     color: var(--text-bg);
     transition: var(--transition-speed);
+}
+
+.fa-primary-current {
+    color: var(--text-active);
 }
 
 .nav-link:hover .fa-primary {
@@ -138,3 +155,5 @@ main h1, h2, h3 {
 main {
     margin-left: 250px;
 }
+
+
