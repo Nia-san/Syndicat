@@ -185,3 +185,7 @@ main {
 .clean-money {
 	background-color: var(--bg-primary);
 }
+
+.insights span {
+	color: #ccc;
+}
