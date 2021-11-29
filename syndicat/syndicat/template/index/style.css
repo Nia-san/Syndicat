@@ -16,6 +16,17 @@
 	--bg-active: #393c43ff;
 	--scroll-bg-primary: #202225;
 	--sroll-bg-secondary: #2e3338ff;
+
+	--card-border-radius: 2rem;
+	--border-radius-1: 0.4rem;
+	--border-radius-2: 0.8rem;
+	--border-radius-3: 1.2rem;
+
+	--card-padding: 1.8rem;
+	--padding-1: 1.2rem;
+
+	--box-shadow: 0 2rem 3rem var(--bg-primary);
+
 	--transition-speed: 600ms;
 }
 
@@ -148,28 +159,37 @@ h3 {
 	}
 }
 main {
+	margin-top: 1.4rem;
 	margin-left: 17.5rem;
 	padding: 1rem;
 }
 
-.goal {
-	background-color: var(--bg-primary);
-	width: 100%;
-	border-radius: 3px;
+main .insights {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.6rem;
 }
 
-.goal h1 {
-	margin-left: 1rem;
+main .insights > div {
+	background: var(--bg-tertiary);
+	padding: var(--card-padding);
+	margin-top: 1rem;
+	box-shadow: var(--box-shadow);
 }
 
-.stats-d {
-	background-color: var(--bg-primary);
-	width: 100%;
-	border-radius: 3px;
+main .insights > div:hover {
+	box-shadow: none;
 }
 
-.stats-d h1 {
-	margin-left: 1rem;
+main .insights > div .middle {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+main .insights h3 {
+	margin: 1rem 0 0.6rem;
+	font-size: 1rem;
 }
 
 .insights svg {
@@ -177,15 +197,54 @@ main {
 }
 
 .insights .fa-primary {
+	color: var(--text-bg);
+	-webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+	filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+main .insights .title {
+	display: flex;
+	align-items: center;
+	font-size: 1.5rem;
 	color: var(--text-active);
 }
 
-.insights .dirty-money,
-.money-bag,
-.clean-money {
-	background-color: var(--bg-primary);
+main .insights .title span {
+	margin-left: 1rem;
 }
 
-.insights span {
-	color: #ccc;
+main .insights .total h3 {
+	color: var(--text-normal);
+}
+
+main .recent-moved {
+	background: var(--bg-tertiary);
+	margin-top: 4rem;
+	box-shadow: var(--box-shadow);
+	margin-bottom: 1rem;
+}
+
+main .recent-moved:hover {
+	box-shadow: none;
+}
+
+main .recent-moved h2 {
+	padding: 1rem;
+	margin-left: 1rem;
+}
+
+main .recent-moved .element {
+	margin-left: 1rem;
+	display: flex;
+	align-items: center;
+	font-size: 1rem;
+}
+main .recent-moved .element span {
+	margin-left: 3.2rem;
+}
+
+main .hrrm {
+	border-color: #ccc;
+	width: 98%;
+	opacity: 10%;
 }
