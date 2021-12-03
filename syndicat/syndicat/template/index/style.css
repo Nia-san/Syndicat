@@ -177,10 +177,6 @@ main .insights > div {
 	box-shadow: var(--box-shadow);
 }
 
-main .insights > div:hover {
-	box-shadow: none;
-}
-
 main .insights > div .middle {
 	display: flex;
 	align-items: center;
@@ -218,14 +214,12 @@ main .insights .total h3 {
 }
 
 main .recent-moved {
-	background: var(--bg-tertiary);
 	margin-top: 4rem;
-	box-shadow: var(--box-shadow);
 	margin-bottom: 1rem;
-}
-
-main .recent-moved:hover {
-	box-shadow: none;
+	background: var(--bg-tertiary);
+	box-shadow: var(--box-shadow);
+	padding: 1rem;
+	border-collapse: collapse;
 }
 
 main .recent-moved h2 {
@@ -233,18 +227,67 @@ main .recent-moved h2 {
 	margin-left: 1rem;
 }
 
-main .recent-moved .element {
-	margin-left: 1rem;
-	display: flex;
-	align-items: center;
-	font-size: 1rem;
-}
-main .recent-moved .element span {
-	margin-left: 3.2rem;
+main .recent-moved table {
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
 }
 
 main .hrrm {
 	border-color: #ccc;
 	width: 98%;
 	opacity: 10%;
+}
+
+main .phone-book {
+	background: var(--bg-tertiary);
+	box-shadow: var(--box-shadow);
+	padding: 1rem;
+	border-collapse: collapse;
+}
+
+main .phone-book table {
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
+}
+
+main .phone-book thead {
+	color: var(--text-active);
+}
+
+main .phone-book .title {
+	display: inline;
+	align-items: center;
+	line-height: 3rem;
+}
+
+main .phone-book .title svg {
+	width: 1.2rem;
+}
+main .phone-book .fa-primary {
+	color: #ccc;
+}
+
+main .phone-book tbody tr {
+	line-height: 2.5rem;
+	color: var(--text-hover);
+}
+
+main .phone-book .hra {
+	border-bottom: 1px solid rgba(204, 204, 204, 0.1);
+	line-height: 3rem;
+}
+
+main .work {
+	background: var(--bg-tertiary);
+	box-shadow: var(--box-shadow);
+	padding: 1rem;
+	border-collapse: collapse;
+}
+
+main .work table {
+	border-collapse: collapse;
+	text-align: center;
+	width: 100%;
 }
