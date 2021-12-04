@@ -247,40 +247,151 @@
 
 	<main>
 		<div class="work">
-			<table>
-				<thead>
-					<tr>
-						<td>
-							<button>Superette</button>
-						</td>
-						<td>
-							<button>Drogue</button>
-						</td>
-						<td>
-							<button>Contrat</button>
-						</td>
-						<td>
-							<button>Transfert</button>
-						</td>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<span>test</span>
-						</td>
-						<td>
-							<span>test</span>
-						</td>
-						<td>
-							<span>test</span>
-						</td>
-						<td>
-							<span>test</span>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="w3-bar w3-black">
+				<button
+					class="w3-bar-item w3-button tablink w3-red"
+					onclick="openWork(event,'Drogue')"
+					>Drogue</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Transfert')"
+					>Transfert</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Superette')"
+					>Superette</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Amende')"
+					>Amende</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Contrat')"
+					>Contrat</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Blanchiment')"
+					>Blanchiment</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Achat')"
+					>Achat</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Vente')"
+					>Vente</button
+				>
+			</div>
+
+			<div id="Drogue" class="w3-container w3-border activite">
+				<button
+					class="w3-bar-item w3-button tablink w3-red"
+					onclick="openWork(event,'Drogue')"
+					>Sois Meme</button
+				>
+				<button
+					class="w3-bar-item w3-button tablink"
+					onclick="openWork(event,'Transfert')"
+					>PM / Gang</button
+				>
+				<h2>Drogue</h2>
+				<p>London is the capital city of England.</p>
+			</div>
+
+			<div
+				id="Transfert"
+				class="w3-container w3-border activite"
+				style="display: none"
+			>
+				<h2>Transfert</h2>
+				<p>stockage / destockage / transfert</p>
+				<p>appart a selectionner</p>
+				<p>si transfert second apart a transfert</p>
+				<p>object quantite commentaire</p>
+			</div>
+
+			<div
+				id="Superette"
+				class="w3-container w3-border activite"
+				style="display: none"
+			>
+				<h2>Superette</h2>
+				<p>l'equipe sup</p>
+				<p>plusieurs ligne pour rajouter les sacs</p>
+				<p>appart de destination</p>
+			</div>
+			<div
+				id="Amende"
+				class="w3-container w3-border activite"
+				style="display: none"
+			>
+				<h2>Amende</h2>
+				<p>commentaire</p>
+				<p>somme</p>
+			</div>
+			<div
+				id="Contrat"
+				class="w3-container w3-border activite"
+				style="display: none"
+			>
+				<h2>Contrat</h2>
+				<p>personne demandeur</p>
+				<p>action</p>
+				<p>cible</p>
+				<p>information supplementaire plusieurs ligne</p>
+				<p>photo</p>
+				<p>date butoir</p>
+				<p>payment</p>
+			</div>
+			<div
+				id="Blanchiment"
+				class="w3-container w3-border activite"
+				style="display: none"
+			>
+				<h2>Blanchiment</h2>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+			<div
+				id="Achat"
+				class="w3-container w3-border activite"
+				style="display: none"
+			>
+				<h2>Achat</h2>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+			<div
+				id="Vente"
+				class="w3-container w3-border activite"
+				style="display: none"
+			>
+				<h2>Vente</h2>
+				<p>Tokyo is the capital of Japan.</p>
+			</div>
+			<script>
+				function openWork(evt, workName) {
+					var i, x, tablinks;
+					x = document.getElementsByClassName("activite");
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";
+					}
+					tablinks = document.getElementsByClassName("tablink");
+					for (i = 0; i < x.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(
+							" w3-red",
+							""
+						);
+					}
+					document.getElementById(workName).style.display = "block";
+					evt.currentTarget.className += " w3-red";
+				}
+			</script>
 		</div>
 	</main>
 </body>
