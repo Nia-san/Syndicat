@@ -7,6 +7,8 @@
 	--text-hover: #dcddde;
 	--text-active: #fff;
 	--text-bg: #8e9297;
+	--button-bg: #4f545cff;
+	--button-hover: #5d6269ff;
 	--bg-primary: #202225ff;
 	--bg-secondary: #2f3136ff;
 	--bg-tertiary: #292b2fff;
@@ -290,4 +292,14 @@ main .work table {
 	border-collapse: collapse;
 	text-align: center;
 	width: 100%;
+}
+
+main .work button {
+	cursor: pointer;
+	background-color: var(--button-bg);
+	color: var(--text-active);
+}
+
+main .work button:hover {
+	background-color: var(--button-hover);
 }
