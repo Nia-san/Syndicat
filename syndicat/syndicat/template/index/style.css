@@ -325,6 +325,7 @@ main {
 .work .panels {
 	width: 100%;
 }
+
 .panel {
 	display: none;
 	animation: fadein 0.8s;
@@ -363,6 +364,7 @@ main {
 #heigh:checked ~ .panels #heigh-panel {
 	display: block;
 }
+
 #one:checked ~ .tabs #one-tab,
 #two:checked ~ .tabs #two-tab,
 #three:checked ~ .tabs #three-tab,
