@@ -166,6 +166,8 @@ main {
 	padding: 1rem;
 }
 
+/* INDEX ---------------------------------------------------------------------------------------------------------------------------------------------*/
+
 .insights {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -240,12 +242,35 @@ main {
 	width: 98%;
 	opacity: 10%;
 }
-
+/* PHONE BOOK ----------------------------------------------------------------------------------------------------------------------------------------*/
 .phone-book {
 	background: var(--bg-tertiary);
 	box-shadow: var(--box-shadow);
 	padding: 1rem;
 	border-collapse: collapse;
+}
+
+.phone-book .warpper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.phone-book .tab svg {
+	width: 1.5rem;
+}
+
+.phone-book .tabs {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.phone-book .tab {
+	cursor: pointer;
+	align-items: center;
+	color: var(--text-bg);
 }
 
 .phone-book table {
@@ -258,15 +283,6 @@ main {
 	color: var(--text-active);
 }
 
-.phone-book .title {
-	display: inline;
-	align-items: center;
-	line-height: 3rem;
-}
-
-.phone-book .title svg {
-	width: 1.2rem;
-}
 .phone-book .fa-primary {
 	color: #ccc;
 }
@@ -280,6 +296,8 @@ main {
 	border-bottom: 1px solid rgba(204, 204, 204, 0.1);
 	line-height: 3rem;
 }
+
+/* WORK ----------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .work {
 	background: var(--bg-tertiary);
@@ -330,6 +348,8 @@ main {
 	display: none;
 	animation: fadein 0.8s;
 }
+
+/* STORAGE -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .storage {
 	background: var(--bg-tertiary);
@@ -413,13 +433,19 @@ main {
 	font-weight: bold;
 }
 
+.settings .content .drugsself svg {
+	width: 2rem;
+}
+
 .radio {
 	display: none;
 }
 
+.radio-second {
+	display: none;
+}
+
 #one:checked ~ .panels #one-panel,
-#one-one:checked ~ .panels #one-one-panel,
-#one-two:checked ~ .panels #one-two-panel,
 #two:checked ~ .panels #two-panel,
 #three:checked ~ .panels #three-panel,
 #four:checked ~ .panels #four-panel,
