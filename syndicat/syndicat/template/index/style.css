@@ -168,52 +168,52 @@ main {
 
 /* INDEX ---------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.insights {
+.index .insights {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 1.6rem;
 }
 
-.insights > div {
+.index .insights > div {
 	background: var(--bg-tertiary);
 	padding: var(--card-padding);
 	margin-top: 1rem;
 	box-shadow: var(--box-shadow);
 }
 
-.insights > div .middle {
+.index .insights > div .middle {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 }
 
-.insights h3 {
+.index .insights h3 {
 	margin: 1rem 0 0.6rem;
 	font-size: 1rem;
 }
 
-.insights svg {
+.index .insights svg {
 	width: 3rem;
 }
 
-.insights .fa-primary {
+.index .insights .fa-primary {
 	color: var(--text-bg);
 	-webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 	filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
 }
 
-.insights .title {
+.index .insights .title {
 	display: flex;
 	align-items: center;
 	font-size: 1.5rem;
 	color: var(--text-active);
 }
 
-.insights .title span {
+.index .insights .title span {
 	margin-left: 1rem;
 }
 
-.insights .total h3 {
+.index .insights .total h3 {
 	color: var(--text-normal);
 }
 
@@ -351,17 +351,57 @@ main {
 
 /* STORAGE -------------------------------------------------------------------------------------------------------------------------------------------*/
 
-.storage {
+.storage .insights {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.6rem;
+}
+
+.storage .insights > div {
+	background: var(--bg-tertiary);
+	padding: var(--card-padding);
+	margin-top: 1rem;
+	box-shadow: var(--box-shadow);
+}
+
+.storage .insights > div .middle {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.storage .insights svg {
+	width: 3rem;
+}
+
+.storage .insights .fa-primary {
+	color: var(--text-bg);
+	-webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+	filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+.storage .insights .content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	color: var(--text-active);
+}
+
+.storage .insights .content span {
+	margin-left: 1rem;
+}
+
+.storage .warpper {
 	background: var(--bg-tertiary);
 	box-shadow: var(--box-shadow);
 	padding: 1rem;
 	border-collapse: collapse;
-}
-
-.storage .warpper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 3rem;
 }
 
 .storage .tab svg {
@@ -403,7 +443,6 @@ main {
 
 .storage table {
 	border-collapse: collapse;
-	text-align: center;
 	width: 100%;
 }
 
