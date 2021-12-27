@@ -483,6 +483,9 @@ main {
 .radio-second {
 	display: none;
 }
+.radio-2 {
+	display: none;
+}
 
 #one:checked ~ .panels #one-panel,
 #two:checked ~ .panels #two-panel,
@@ -505,3 +508,5 @@ main {
 #heigh:checked ~ .tabs #heigh-tab {
 	color: var(--text-active);
 }
+
+/* Work test */
