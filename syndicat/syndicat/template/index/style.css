@@ -297,58 +297,6 @@ main {
 	line-height: 3rem;
 }
 
-/* WORK ----------------------------------------------------------------------------------------------------------------------------------------------*/
-
-.work {
-	background: var(--bg-tertiary);
-	box-shadow: var(--box-shadow);
-	padding: 1rem;
-	border-collapse: collapse;
-}
-
-.work .wrapper {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.work .tab svg {
-	width: 1.5rem;
-}
-
-.work .tabs {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: 100%;
-}
-
-.work .tab {
-	cursor: pointer;
-	display: flex;
-	flex-direction: column;
-	flex-basis: 100%;
-	flex: 1;
-	align-items: center;
-	margin: 0rem 1rem;
-	color: var(--text-bg);
-}
-
-.work .hrtitle {
-	border-color: #ccc;
-	width: 100%;
-	opacity: 5%;
-}
-
-.work .panels {
-	width: 100%;
-}
-
-.work .panel {
-	display: none;
-	animation: fadein 0.8s;
-}
-
 /* STORAGE -------------------------------------------------------------------------------------------------------------------------------------------*/
 
 .storage .insights {
@@ -476,38 +424,94 @@ main {
 	width: 2rem;
 }
 
-.radio {
+/* WORK ----------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.work {
+	background: var(--bg-tertiary);
+	box-shadow: var(--box-shadow);
+	padding: 1rem;
+	border-collapse: collapse;
+}
+
+/* Main Tabs */
+
+.work .wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.work .top-tabs-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.work .top-tab-container {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	align-items: center;
+	margin: 0rem 1rem;
+	color: var(--text-bg);
+}
+
+.work .hr-main-tab {
+	border-color: #ccc;
+	width: 100%;
+	opacity: 5%;
+}
+
+.work .tab-radio {
 	display: none;
 }
 
-.radio-second {
+/* Tabs behaviour, hidden if not checked/clicked */
+.work .sub-tab-content,
+.tab-content {
 	display: none;
 }
 
-.radio-2 {
-	display: none;
-}
-
-#one:checked ~ .panels #one-panel,
-#two:checked ~ .panels #two-panel,
-#three:checked ~ .panels #three-panel,
-#four:checked ~ .panels #four-panel,
-#five:checked ~ .panels #five-panel,
-#six:checked ~ .panels #six-panel,
-#seven:checked ~ .panels #seven-panel,
-#height:checked ~ .panels #height-panel {
+.work .tab-radio:checked + .tab-content,
+.tab-radio:checked + .sub-tab-content {
 	display: block;
 }
 
-#one:checked ~ .tabs #one-tab,
-#two:checked ~ .tabs #two-tab,
-#three:checked ~ .tabs #three-tab,
-#four:checked ~ .tabs #four-tab,
-#five:checked ~ .tabs #five-tab,
-#six:checked ~ .tabs #six-tab,
-#seven:checked ~ .tabs #seven-tab,
-#height:checked ~ .tabs #height-tab {
-	color: var(--text-active);
+/* Sub-tabs */
+.work .sub-tabs-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
-/* Work test */
+.work .sub-tab-container {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	align-items: center;
+	margin: 0rem 1rem;
+	color: var(--text-bg);
+}
+
+/* Tabs Content */
+
+.work .tab-content {
+	width: 100%;
+}
+
+.work label:hover {
+	color: var(--text-hover);
+}
+
+/* General */
+
+.work *,
+*:hover {
+	transition: all 0.3s;
+}
