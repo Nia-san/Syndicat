@@ -306,7 +306,7 @@ main {
 	border-collapse: collapse;
 }
 
-.work .warpper {
+.work .wrapper {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -483,6 +483,7 @@ main {
 .radio-second {
 	display: none;
 }
+
 .radio-2 {
 	display: none;
 }
@@ -494,7 +495,7 @@ main {
 #five:checked ~ .panels #five-panel,
 #six:checked ~ .panels #six-panel,
 #seven:checked ~ .panels #seven-panel,
-#heigh:checked ~ .panels #heigh-panel {
+#height:checked ~ .panels #height-panel {
 	display: block;
 }
 
@@ -505,7 +506,7 @@ main {
 #five:checked ~ .tabs #five-tab,
 #six:checked ~ .tabs #six-tab,
 #seven:checked ~ .tabs #seven-tab,
-#heigh:checked ~ .tabs #heigh-tab {
+#height:checked ~ .tabs #height-tab {
 	color: var(--text-active);
 }
 
