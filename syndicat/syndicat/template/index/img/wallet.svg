@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="wallet.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.52420491"
+     inkscape:cx="-289.96295"
+     inkscape:cy="445.4365"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       fill="currentColor"
+       d="M 122.02581,33.866665 H 21.166594 c -2.338987,0 -4.233387,-1.8944 -4.233387,-4.233386 0,-2.338816 1.8944,-4.233216 4.233387,-4.233216 H 122.76668 c 2.33881,0 4.23321,-1.8944 4.23321,-4.233387 0,-7.014058 -5.68593,-12.6999885 -12.69999,-12.6999885 H 16.933207 C 7.5803335,8.4666875 2.4999999e-6,16.047018 2.4999999e-6,25.400063 V 110.0666 c 0,9.35305 7.5803310000001,16.93338 16.9332045000001,16.93338 H 122.02581 c 7.41359,0 13.44085,-5.69651 13.44085,-12.69999 V 46.566655 c 0,-7.003648 -6.02726,-12.69999 -13.44085,-12.69999 z m -11.95912,55.033342 c -4.67525,0 -8.46678,-3.79153 -8.46678,-8.46677 0,-4.67507 3.79153,-8.4666 8.46678,-8.4666 4.67507,0 8.4666,3.79153 8.4666,8.4666 0,4.67524 -3.79153,8.46677 -8.4666,8.46677 z"
+       data-darkreader-inline-fill=""
+       id="path2-04"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583" />
+  </g>
+</svg>

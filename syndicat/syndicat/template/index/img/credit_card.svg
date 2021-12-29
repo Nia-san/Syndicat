@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="credit_card.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.52420491"
+     inkscape:cx="-289.96295"
+     inkscape:cy="445.4365"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       fill="currentColor"
+       d="m 2.4999999e-6,109.12589 c 0,6.2324 5.0565120000001,11.28891 11.2889165000001,11.28891 H 124.17775 c 6.2324,0 11.28891,-5.05651 11.28891,-11.28891 V 67.733248 H 2.4999999e-6 Z M 45.1555,93.133226 c 0,-1.552042 1.269931,-2.822144 2.822315,-2.822144 h 31.985147 c 1.55222,0 2.82215,1.270102 2.82215,2.822144 v 9.407484 c 0,1.55222 -1.26993,2.82232 -2.82215,2.82232 H 47.977815 c -1.552384,0 -2.822315,-1.2701 -2.822315,-2.82232 z m -30.103722,0 c 0,-1.552042 1.270101,-2.822144 2.822314,-2.822144 h 16.933206 c 1.552384,0 2.822314,1.270102 2.822314,2.822144 v 9.407484 c 0,1.55222 -1.26993,2.82232 -2.822314,2.82232 H 17.874092 c -1.552213,0 -2.822314,-1.2701 -2.822314,-2.82232 z M 135.46666,26.340779 V 37.629696 H 2.4999999e-6 V 26.340779 C 2.4999999e-6,20.108374 5.0565145,15.051862 11.288919,15.051862 H 124.17775 c 6.2324,0 11.28891,5.056512 11.28891,11.288917 z"
+       data-darkreader-inline-fill=""
+       id="path2-48"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.235185" />
+  </g>
+</svg>

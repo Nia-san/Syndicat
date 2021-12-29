@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="uzi.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.52420491"
+     inkscape:cx="-289.96295"
+     inkscape:cy="445.4365"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#000000;stroke-width:0.264582"
+       d="M 39.951882,109.27278 V 87.841582 l 12.0387,1e-4 12.0385,-1e-4 v 21.431198 21.4312 h -12.0387 -12.0385 z m -5.2917,-42.465498 v -12.8322 l -9.2602,-1e-4 h -9.2603 l -10e-5,-16.6688 10e-5,-16.6686 h 12.0384 12.0384 v -3.9688 l 2e-4,-3.9687 h -16.1396 l -16.1395995,10e-5 v 25.1352 25.1356 l -3.9687,-10e-5 h -3.9687 l -1e-4,-29.1042 1e-4,-29.1039995 h 24.0767995 24.0772 l 10e-5,7.9373995 -10e-5,7.9375 h 24.3416 24.3417 v -3.1749 -3.1751 h 3.968698 l 3.9686,10e-5 v 3.1701 3.1702 l 6.2838,0.071 6.2839,0.071 0.073,4.1672 0.073,4.1672 8.989,-10e-5 8.9893,10e-5 -1e-4,8.2019 v 8.2022 h -8.9892 l -8.989,-1e-4 -0.073,4.1673 -0.073,4.1672 -11.84,0.069 -11.839998,0.069 v 8.9931 8.993 h -12.171 -12.1708 l 1e-4,3.8364 v 3.8364 h -17.3301 -17.3302 z m 51.0646,-7.9374 10e-5,-4.8949 -2.1167,1e-4 -2.1166,-1e-4 v 3.1751 l -2e-4,3.175 -3.9686,-1e-4 h -3.9687 v -3.175 l -10e-5,-3.1749 -2.1168,-1e-4 -2.1165,1e-4 -2e-4,4.8947 2e-4,4.8949 8.202,-1e-4 h 8.2022 z m 5.2918,-21.5637 v -3.9687 h -24.3419 l -24.3415,10e-5 v 3.9687 l 10e-5,3.9687 24.3414,10e-5 24.3418,-10e-5 z"
+       id="path24225" />
+  </g>
+</svg>

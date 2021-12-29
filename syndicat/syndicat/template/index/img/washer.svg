@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="washer.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="px"
+     showgrid="false"
+     units="px"
+     inkscape:zoom="0.52420491"
+     inkscape:cx="-289.96295"
+     inkscape:cy="445.4365"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       fill="currentColor"
+       d="M 110.0666,2.4997099e-6 H 25.399892 A 16.933328,16.933328 0 0 0 8.4666875,16.933378 V 126.99989 a 8.4666643,8.4666643 0 0 0 8.4666025,8.46677 h 101.59992 a 8.4666643,8.4666643 0 0 0 8.46677,-8.46677 V 16.933378 A 16.933328,16.933328 0 0 0 110.0666,2.4997099e-6 Z M 57.149867,16.933378 a 6.3499982,6.3499982 0 1 1 -6.349997,6.349994 6.3499982,6.3499982 0 0 1 6.349997,-6.349994 z m -31.749975,6.349994 a 6.3499982,6.3499982 0 1 1 6.349995,6.349995 6.3499982,6.3499982 0 0 1 -6.349995,-6.349995 z M 67.733247,118.53329 A 38.09999,38.09999 0 1 1 105.83322,80.433324 38.09999,38.09999 0 0 1 67.733247,118.53329 Z m 9.75514,-43.301716 a 13.5546,13.5546 0 0 1 -19.51028,0 13.702767,13.702767 0 0 1 -19.378172,0.264534 29.305241,29.305241 0 0 0 -0.500054,4.937216 29.633365,29.633365 0 0 0 59.266726,0 29.305241,29.305241 0 0 0 -0.50005,-4.945067 13.702767,13.702767 0 0 1 -19.37817,-0.264533 z"
+       data-darkreader-inline-fill=""
+       id="path2-1"
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583" />
+  </g>
+</svg>
