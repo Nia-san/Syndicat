@@ -459,6 +459,10 @@ main {
 	color: var(--text-bg);
 }
 
+.work .top-tab-container svg {
+	width: 2rem;
+}
+
 .work .hr-main-tab {
 	border-color: #ccc;
 	width: 100%;
@@ -499,17 +503,32 @@ main {
 	color: var(--text-bg);
 }
 
+.work .sub-tab-container img {
+	width: 2rem;
+}
+
 /* Tabs Content */
 
 .work .tab-content {
 	width: 100%;
 }
 
-.work label:hover {
-	color: var(--text-hover);
+/* General */
+
+.work .top-tab-container svg .fa-primary,
+.work .sub-tab-container svg .fa-primary {
+	color: var(--text-bg);
 }
 
-/* General */
+.work .top-tab-container svg,
+.work .sub-tab-container svg {
+	width: 2rem;
+}
+
+.work label:hover,
+.work svg:hover {
+	color: var(--text-hover);
+}
 
 .work *,
 *:hover {
