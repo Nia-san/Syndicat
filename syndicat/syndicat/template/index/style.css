@@ -526,7 +526,7 @@ main {
 }
 
 .work label:hover,
-.work svg:hover {
+.work svg .fa-primary:hover {
 	color: var(--text-hover);
 }
 
