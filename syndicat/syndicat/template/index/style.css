@@ -538,3 +538,40 @@ main {
 .sub-tab-container:after {
 	color: blue;
 }
+
+/* sub-tab-content */
+
+/* Self-Drugs */
+
+.work .sub-tab-content .drugs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.work .sub-tab-content .self-dugs-types {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.work .sub-tab-content .self-dugs-type {
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	align-items: center;
+	gap: 1rem;
+	margin: 0rem 1rem;
+	color: var(--text-bg);
+}
+
+.work .sub-tab-content .self-dugs-types svg .fa-primary {
+	color: var(--text-bg);
+}
+
+.work .sub-tab-content .drugs svg {
+	width: 2rem;
+}
