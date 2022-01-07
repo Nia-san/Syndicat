@@ -525,10 +525,10 @@ main {
 	width: 2rem;
 }
 
-.work label:hover,
+/*.work label:hover,
 .work svg .fa-primary:hover {
 	color: var(--text-hover);
-}
+}*/
 
 .work *,
 *:hover {
@@ -547,13 +547,13 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
 }
 
 .work .sub-tab-content .self-dugs-types {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
 }
 
 .work .sub-tab-content .self-dugs-type {
@@ -566,9 +566,10 @@ main {
 	gap: 1rem;
 	margin: 0rem 1rem;
 	color: var(--text-bg);
+	width: 100%;
 }
 
-.work .sub-tab-content .self-dugs-types svg .fa-primary {
+.work .sub-tab-content .self-dugs-types label .fa-primary {
 	color: var(--text-bg);
 }
 
